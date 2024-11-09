@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  
+  .btn-danger {
+    background-color: #e63946; /* Custom red color */
+    border: none;
+  }
+  .btn-danger:hover {
+    background-color: #d62828; /* Darker shade on hover */
+  }
+  
+  a {
+      font-family: roboto;
+  }
+  
+  h1, h2, h3 {
+      font-family: montserrat;
+  }
+  
+  p {
+      font-family: open sans;
+  }
+  
+    .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .episodes-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  .card-title {
+    font-family: 'Roboto', sans-serif;
+  }
+  .card-text {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+    .host-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  .host-section h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+  }
+  .host-section p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+    .about-section h2, .about-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  .about-section p, .about-section ul {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .about-section img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+    .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .btn-primary {
+    background-color: #e63946; /* Custom button color */
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #d62828; /* Darker shade on hover */
+  }
+  
+   .form-control {
+     border: 2px solid #ddd;
+     transition: border-color 0.3s;
+ }
+
+ .form-control:focus {
+     border-color: #28a745;
+     box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+ }
+
+ .form-control.complete {
+     border-color: #28a745;
+     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%2328a745" viewBox="0 0 16 16"%3E%3Cpath d="M16 3.5a.5.5 0 0 1-.854.354l-6.78 6.78L.854 5.646a.5.5 0 1 1 .707-.708l5.61 5.61L15.146 3.854A.5.5 0 0 1 16 3.5z"/%3E%3C/svg%3E');
+     background-repeat: no-repeat;
+     background-position: right 0.75rem center;
+     background-size: 1rem 1rem;
+ }
+
+ .form-container {
+     opacity: 0;
+     transform: translateY(50px);
+     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+ }
+
+ .form-container.appear {
+     opacity: 1;
+     transform: translateY(0);
+ }
+
+ .btn-submit {
+     background-color: black;
+     color: white;
+     border: none;
+     transition: background-color 0.3s;
+ }
+
+ .btn-submit:hover {
+     background-color: darkgray;
+ }

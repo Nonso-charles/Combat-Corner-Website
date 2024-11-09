@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="gloves.png" alt="Combat Corner" width="40" height="40" class="d-inline-block align-text-top">
+            Combat Corner
+        </a>
+
+        <!-- Toggler for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#episodes">Episodes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#host">Hosts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Listen Button -->
+            <a href="#" class="btn btn-danger">Listen</a>
+        </div>
+    </div>
+</nav>
+
+<section class="episodes-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Latest Episodes</h2>
+
+    <!-- Carousel -->
+    <div id="episodesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Card Item 1 -->
+        <div class="carousel-item active">
+          <div class="card mx-auto" style="max-width: 18rem;">
+            <img src="episode1.jpg" class="card-img-top" alt="Episode 1">
+            <div class="card-body">
+              <h5 class="card-title">Episode 1: The Fight Analysis</h5>
+              <p class="card-text">Join us as we break down the biggest fights and talk to industry experts.</p>
+              <a href="#" class="btn btn-primary">Listen Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Item 2 -->
+        <div class="carousel-item">
+          <div class="card mx-auto" style="max-width: 18rem;">
+            <img src="episode2.jpg" class="card-img-top" alt="Episode 2">
+            <div class="card-body">
+              <h5 class="card-title">Episode 2: Training Techniques</h5>
+              <p class="card-text">Explore the training regimens of top fighters and how they prepare for matches.</p>
+              <a href="#" class="btn btn-primary">Listen Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Item 3 -->
+        <div class="carousel-item">
+          <div class="card mx-auto" style="max-width: 18rem;">
+            <img src="episode3.jpg" class="card-img-top" alt="Episode 3">
+            <div class="card-body">
+              <h5 class="card-title">Episode 3: MMA Legends Interview</h5>
+              <p class="card-text">A candid talk with a legendary fighter about career highlights and stories.</p>
+              <a href="#" class="btn btn-primary">Listen Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+<section class="host-section py-5 bg-dark text-light" id="host">
+    <div class="container">
+        <h2 class="text-center mb-4">Meet Your Host</h2>
+        <div class="row align-items-center">
+            <!-- Host Image -->
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="chinonso-charles.jpg" alt="Chinonso Charles" class="rounded-circle img-fluid" style="width: 250px; height: 250px; object-fit: cover;">
+            </div>
+            <!-- Host Details -->
+            <div class="col-md-8">
+                <h3 class="mb-2">Chinonso "The Voice" Charles</h3>
+                <p class="text-muted">Podcast Host & MMA Aficionado</p>
+                <p>
+                    Chinonso "The Voice" Charles brings a unique energy and deep understanding of mixed martial arts to every episode of **Combat Corner**. With years of experience covering the sport and a passion for storytelling, Chinonso breaks down the fights, spotlights fighters, and engages with top MMA analysts and athletes to bring listeners an unmatched podcast experience.
+                </p>
+                <p>
+                    His nickname, *"The Voice,"* comes from his charismatic delivery and compelling analysis that captivates listeners from start to finish. Whether dissecting the biggest fight nights or interviewing up-and-coming talent, Chinonso makes every episode a must-listen for MMA enthusiasts.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">About Combat Corner</h2>
+    <p class="text-center mb-5 lead">Your ultimate destination for all things MMA – insightful analysis, exclusive interviews, and engaging discussions.</p>
+    
+    <div class="row">
+      <!-- Left Column: Image -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="mma-podcast.jpg" alt="Combat Corner Podcast" class="img-fluid rounded" style="object-fit: cover;">
+      </div>
+      
+      <!-- Right Column: Text -->
+      <div class="col-md-6">
+        <h3 class="mb-3">Our Story</h3>
+        <p>
+          **Combat Corner** was founded with one goal in mind: to create an unmatched platform where MMA enthusiasts can come together to learn, debate, and celebrate the sport. Hosted by the charismatic Chinonso "The Voice" Charles, the podcast has grown into a must-listen experience for fight fans of all levels.
+        </p>
+        <p>
+          From deep dives into legendary fights and fighter profiles to the latest news and pre-fight breakdowns, **Combat Corner** offers a comprehensive mix of content that keeps listeners informed and entertained. We bring exclusive interviews with top fighters, coaches, and industry insiders to give you an inside look at the world of MMA.
+        </p>
+        <h3 class="mt-4 mb-3">Why Choose Combat Corner?</h3>
+        <ul>
+          <li>In-depth fight analysis and expert commentary</li>
+          <li>Exclusive interviews with top athletes and rising stars</li>
+          <li>Interactive discussions and listener Q&A sessions</li>
+          <li>Passionate, engaging, and high-quality content</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container mt-5">
+  <div class="form-container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Your Name" id="name" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Your Email" id="email" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" placeholder="Your Message" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-submit w-100">Submit</button>
+    </form>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+
+</html>
