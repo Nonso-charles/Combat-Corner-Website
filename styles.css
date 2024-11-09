@@ -118,3 +118,22 @@
  .btn-submit:hover {
      background-color: darkgray;
  }
+ 
+ footer {
+      background-color: #111;
+      color: #fff;
+      padding: 40px 0;
+    }
+    footer .social-icons a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+    footer .social-icons a:hover {
+      color: #f39c12;
+    }
+    
+    .icon {
+        width: 30px;
+    }
